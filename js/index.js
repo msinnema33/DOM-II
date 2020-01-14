@@ -1,1 +1,56 @@
 // Your code goes here
+let dest = document.querySelectorAll('.destination');
+
+let topNav = document.querySelectorAll('.nav-link');
+
+let nav = document.querySelector('.nav');
+
+// console.log(dest);
+// console.log(topNav);
+
+
+// topNav.addEventListener('mouseenter', (event) => {
+//     topNav.style.backgroundColor = '#FFEBCD';
+// });
+
+dest.forEach(i => {
+    i.addEventListener('mouseenter', (event) => {
+        i.style.backgroundColor = '#FFEBCD';
+    })
+    i.addEventListener('mouseleave', (event) => {
+        i.style.backgroundColor = '#FFF';
+    })
+})
+
+// dest.forEach(i => {
+//     i.addEventListener('mouseleave', (event) => {
+//         i.style.backgroundColor = '#FFF';
+//     })
+// })
+
+
+
+// dest[0].addEventListener('mouseenter', (event) => {
+//     dest[0].style.backgroundColor = '#FFEBCD';
+// })
+
+// dest[0].addEventListener('mouseleave', (event) => {
+//     dest[0].style.backgroundColor = '#FFF';
+// })
+
+nav.addEventListener('mouseover', (event) => {
+    nav.style.fontWeight = 'bold';
+})
+
+
+
+//mouseenter
+//mouseleave
+//mouseover
+//  scroll
+//  dblclick
+//  focus
+//  resize
+//  click
+//  select
+//  wheel
