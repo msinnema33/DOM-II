@@ -44,11 +44,19 @@ nav.addEventListener('mouseover', (event) => {
     nav.style.fontWeight = 'bold';
 })
 
+nav.addEventListener('mouseout', (event) => {
+    nav.style.fontWeight = 'normal';
+})
 
+// xxx.addEventListener('mousemove', (event) => {
+//     xxx.style.backgroundColor = 'rgb(' + e.offsetX + ', ' + e.offsetY + ', 40 )';
+
+// })
 
 //mouseenter
 //mouseleave
 //mouseover
+//mouseout
 //  scroll
 //  dblclick
 //  focus
