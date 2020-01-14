@@ -22,13 +22,15 @@ dest.forEach(i => {
     })
 })
 
-// dest.forEach(i => {
-//     i.addEventListener('mouseleave', (event) => {
-//         i.style.backgroundColor = '#FFF';
-//     })
+topNav.forEach(i => {
+    i.addEventListener('click', (event) => {
+        event.preventDefault();
+    })
+})
+
+// topNav[0].addEventListener('click', (event) => {
+//     event.preventDefault();
 // })
-
-
 
 // dest[0].addEventListener('mouseenter', (event) => {
 //     dest[0].style.backgroundColor = '#FFEBCD';
@@ -51,6 +53,6 @@ nav.addEventListener('mouseover', (event) => {
 //  dblclick
 //  focus
 //  resize
-//  click
+//click
 //  select
 //  wheel
