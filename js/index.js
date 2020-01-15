@@ -7,6 +7,7 @@ let nav = document.querySelector('.nav');
 
 let contImg = document.querySelector('.content-destination img');
 
+let body = document.querySelector('body');
 
 // console.log(dest);
 // console.log(topNav);
@@ -68,6 +69,10 @@ document.addEventListener('keydown', (event) => {
         document.body.style = '';
     }
 });
+
+window.addEventListener('scroll', () => {
+    body.style.backgroundColor = "black"
+})
 
 //mouseenter
 //mouseleave
