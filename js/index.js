@@ -60,14 +60,23 @@ contImg.addEventListener('resize', (event) => {
 
 // })
 
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'd') {
+        document.body.style = "color: white; background-color: #111111";
+    }
+    if (event.key === 'l') {
+        document.body.style = '';
+    }
+});
+
 //mouseenter
 //mouseleave
 //mouseover
 //mouseout
-//  scroll
+//keydown
 //  dblclick
-//  focus
-//  resize
+//keydown
+//resize
 //click
 //  select
 //  wheel
