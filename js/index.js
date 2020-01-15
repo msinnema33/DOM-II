@@ -5,6 +5,9 @@ let topNav = document.querySelectorAll('.nav-link');
 
 let nav = document.querySelector('.nav');
 
+let contImg = document.querySelector('.content-destination img');
+
+
 // console.log(dest);
 // console.log(topNav);
 
@@ -46,6 +49,10 @@ nav.addEventListener('mouseover', (event) => {
 
 nav.addEventListener('mouseout', (event) => {
     nav.style.fontWeight = 'normal';
+})
+
+contImg.addEventListener('resize', (event) => {
+    contImg.display = 'none';
 })
 
 // xxx.addEventListener('mousemove', (event) => {
