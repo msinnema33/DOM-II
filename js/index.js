@@ -7,9 +7,11 @@ let nav = document.querySelector('.nav');
 
 let contImg = document.querySelector('.content-destination img');
 
-let body = document.querySelector('body');
+let body = document.querySelector('.body');
 
-// console.log(dest);
+let logoSize = document.querySelector('.logo-heading');
+
+//console.log(logoSize);
 // console.log(topNav);
 
 
@@ -56,6 +58,10 @@ contImg.addEventListener('resize', (event) => {
     contImg.display = 'none';
 })
 
+logoSize.addEventListener('click', () => {
+    logoSize.fontSize = '2.5rem';
+})
+
 // xxx.addEventListener('mousemove', (event) => {
 //     xxx.style.backgroundColor = 'rgb(' + e.offsetX + ', ' + e.offsetY + ', 40 )';
 
@@ -79,9 +85,8 @@ window.addEventListener('scroll', () => {
 //mouseover
 //mouseout
 //keydown
-//  dblclick
+//dblclick
 //keydown
 //resize
 //click
-//  select
-//  wheel
+//scroll
